@@ -6,7 +6,7 @@ import java.time.OffsetDateTime;
 import java.util.List;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public record Properties(
+public record Property(
     double pricePerSize,
     List<String> polygons,
     List<Long> parkingArray,

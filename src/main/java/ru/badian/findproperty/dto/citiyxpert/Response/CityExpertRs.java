@@ -7,5 +7,5 @@ import java.util.List;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public record CityExpertRs(
     ResultInfo info,
-    List<Properties> result
+    List<Property> result
 ){}
